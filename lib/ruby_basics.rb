@@ -3,12 +3,12 @@ def division(num1, num2)
 end
 
 def assign_variable (name)
-  assign_variable = "Bob"
+  name = "Bob"
 
 end
 
-def argue (briga)
-  briga = "I'm right and you are wrong!"
+def argue (briga = "I'm right and you are wrong!")
+  "#{briga}"
 end
 
 def greeting (greeting, name)
